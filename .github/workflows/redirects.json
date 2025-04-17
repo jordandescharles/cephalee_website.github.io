@@ -1,0 +1,22 @@
+{
+  "redirects": [
+    {
+      "slug": "deezer",
+      "title": "Céphalée sur Deezer",
+      "app_url": "deezer://www.deezer.com/fr/artist/249919752",
+      "web_url": "https://www.deezer.com/fr/artist/249919752"
+    },
+    {
+      "slug": "spotify",
+      "title": "Céphalée sur Spotify",
+      "app_url": "spotify://artist/3c5xAFlctCHy35kYAJSZtS",
+      "web_url": "https://open.spotify.com/intl-fr/artist/3c5xAFlctCHy35kYAJSZtS"
+    },
+    {
+      "slug": "apple",
+      "title": "Céphalée sur Apple Music",
+      "app_url": "music://artist/c%C3%A9phal%C3%A9e/1725025804",
+      "web_url": "https://music.apple.com/fr/artist/c%C3%A9phal%C3%A9e/1725025804"
+    }
+  ]
+}
