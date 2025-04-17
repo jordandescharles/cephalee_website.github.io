@@ -1,0 +1,70 @@
+name: Generate Redirect Pages
+
+on:
+  push:
+    paths:
+      - 'redirects.json'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+
+      - name: Generate redirect pages
+        run: |
+          node -e "
+            const fs = require('fs');
+            
+            // Lire le fichier JSON
+            const redirectsData = JSON.parse(fs.readFileSync('redirects.json', 'utf8'));
+            
+            // Template HTML pour les redirections
+            const createRedirectHtml = (title, appUrl, webUrl) => \`<!DOCTYPE html>
+            <html lang=\"fr\">
+            <head>
+                <meta charset=\"UTF-8\">
+                <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
+                <title>\${title}</title>
+            </head>
+            <body>
+                <script>
+                    // Essayer d'ouvrir l'app
+                    window.location.href = '\${appUrl}';
+            
+                    // Rediriger vers le site web après un délai
+                    setTimeout(function () {
+                        window.location.href = '\${webUrl}';
+                    }, 1500);
+                </script>
+            </body>
+            </html>\`;
+            
+            // Générer les fichiers de redirection
+            redirectsData.redirects.forEach(redirect => {
+                const html = createRedirectHtml(
+                    redirect.title,
+                    redirect.app_url,
+                    redirect.web_url
+                );
+                
+                // Écrire le fichier HTML
+                fs.writeFileSync(\`\${redirect.slug}.html\`, html);
+                console.log(\`Fichier \${redirect.slug}.html créé avec succès.\`);
+            });
+          "
+
+      - name: Commit and push generated files
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add *.html
+          git commit -m "Auto-generate redirect pages" || echo "No changes to commit"
+          git push
