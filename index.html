@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Céphalée - emo-punk 90's from Lille</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome pour les icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <img class="profile-image" src="./img/logo.png" alt="Céphalée">
+    <h2> Ranting and raving about nonsense </h2>
+
+    <img class="ep-image" src="./img/pchette.jpg" alt="pochette run">
+    <p>RUN - disponible le 24/05/2025</p>
+
+    <div class="bio">
+        Céphalée est un trio basé à Lille dans le Nord de la France. 
+        Les trois membres évoluent dans les milieux musicaux alternatifs locaux. 
+        Leur musique est très influencée par les scènes modernes, ce qui apporte au projet 
+        des sonorités variés allant du post-hardcore à la musique progressive, 
+        en gardant une énergie punk.
+    </div>
+    
+    <div class="links">
+        <a href="https://cephalee.bandcamp.com/track/fine" class="link-item">NEW SINGLE : Fine</a>
+        <a href="https://cephalee.bandcamp.com/track/summer-rain" class="link-item">SINGLE : Summer rain</a>
+        
+        <!-- Liens streaming avec détection mobile -->
+        <a href="https://open.spotify.com/intl-fr/artist/3c5xAFlctCHy35kYAJSZtS" 
+           data-mobile-link="spotify://artist/3c5xAFlctCHy35kYAJSZtS" 
+           class="link-item stream-link spotify">
+           <i class="fab fa-spotify"></i> Spotify
+        </a>
+        
+        <a href="https://music.apple.com/fr/artist/c%C3%A9phal%C3%A9e/1725025804" 
+           data-mobile-link="music://artist/c%C3%A9phal%C3%A9e/1725025804" 
+           class="link-item stream-link apple">
+           <i class="fab fa-apple"></i> Apple Music
+        </a>
+        
+        <a href="https://www.deezer.com/fr/artist/249919752" 
+           data-mobile-link="deezer://www.deezer.com/fr/artist/249919752" 
+           class="link-item stream-link deezer">
+           <i class="fab fa-deezer"></i> Deezer
+        </a>
+        
+        <a href="https://cephalee.bandcamp.com/" 
+           class="link-item stream-link bandcamp">
+           <i class="fab fa-bandcamp"></i> BANDCAMP
+        </a>
+    </div>
+    
+   
+    
+    <div class="social-icons">
+        <a href="https://instagram.com/cephalee.band" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://facebook.com/cephalee.band" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://sur-les-cendres.fr" target="_blank"><i class="fas fa-link"></i></a>
+    </div>
+    
+
+
+    <div class="upcoming-dates">
+        <h2>PROCHAINES DATES</h2>
+        <div class="event">
+            <span>HEMO ROCK FEST </span>
+            <span class="event-date">24/04 - LA BRATCAVE</span>
+        </div>
+        <div class="event">
+            <span>RELEASE PART EP </span>
+            <span class="event-date">24/05 - LA MALTERIE</span>
+            <div>+ GUESTS</div>
+        </div>
+    </div>
+
+    <script>
+        // Script pour rediriger vers les applications mobiles si l'utilisateur est sur mobile
+        document.addEventListener('DOMContentLoaded', function() {
+            // Détection de l'appareil mobile
+            const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+            
+            // Configurer les liens de streaming pour rediriger vers les applications sur mobile
+            if (isMobile) {
+                const streamLinks = document.querySelectorAll('.stream-link');
+                streamLinks.forEach(link => {
+                    link.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        
+                        const mobileLink = this.getAttribute('data-mobile-link');
+                        const webLink = this.getAttribute('href');
+                        
+                        // Tentative d'ouverture de l'application
+                        window.location.href = mobileLink;
+                        
+                        // Fallback vers le lien web après un court délai
+                        // (au cas où l'application n'est pas installée)
+                        setTimeout(function() {
+                            window.location.href = webLink;
+                        }, 1000);
+                    });
+                });
+            }
+        });
+    </script>
+</body>
+</html> 
