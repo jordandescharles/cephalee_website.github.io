@@ -18,5 +18,12 @@
       "app_url": "music://artist/c%C3%A9phal%C3%A9e/1725025804",
       "web_url": "https://music.apple.com/fr/artist/c%C3%A9phal%C3%A9e/1725025804"
     }
+    ,
+    {
+      "slug": "softjourney_youtube",
+      "title": "Céphalée sur Apple Music",
+      "app_url": "youtube://https://www.youtube.com/watch?v=C9h99JIL648",
+      "web_url": "https://www.youtube.com/watch?v=C9h99JIL648"
+    }
   ]
 }
