@@ -20,9 +20,9 @@
     }
     ,
     {
-      "slug": "softjourney_youtube",
-      "title": "Céphalée sur Apple Music",
-      "app_url": "youtube://https://www.youtube.com/watch?v=C9h99JIL648",
+      "slug": "softjourney",
+      "title": "Céphalée sur Youtube",
+      "app_url": "youtube://www.youtube.com/watch?v=C9h99JIL648",
       "web_url": "https://www.youtube.com/watch?v=C9h99JIL648"
     }
   ]
