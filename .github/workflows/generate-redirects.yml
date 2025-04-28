@@ -1,5 +1,8 @@
 name: Generate Redirect Pages
 
+permissions:
+  contents: write
+  
 on:
   push:
     paths:
