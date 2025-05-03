@@ -17,13 +17,36 @@
       "title": "Céphalée sur Apple Music",
       "app_url": "music://artist/c%C3%A9phal%C3%A9e/1725025804",
       "web_url": "https://music.apple.com/fr/artist/c%C3%A9phal%C3%A9e/1725025804"
-    }
-    ,
+    },
     {
-      "slug": "softjourney",
+      "slug": "softjourneylive",
       "title": "Céphalée sur Youtube",
-      "app_url": "youtube://www.youtube.com/watch?v=C9h99JIL648",
+      "app_url": "vnd.youtube://watch?v=C9h99JIL648",
       "web_url": "https://www.youtube.com/watch?v=C9h99JIL648"
+    },
+    {
+      "slug": "soft-journey-spotify",
+      "title": "Soft Journey sur Spotify",
+      "app_url": "spotify://track/2B4r5GNeqoRFxhBri6UEQE?si=693996f1c91c4d8d",
+      "web_url": "https://open.spotify.com/track/2B4r5GNeqoRFxhBri6UEQE?si=693996f1c91c4d8d"
+    },
+    {
+      "slug": "soft-journey-apple",
+      "title": "Soft Journey sur Apple Music",
+      "app_url": "music://song/soft-journey/1810482495",
+      "web_url": "https://music.apple.com/fr/song/soft-journey/1810482495"
+    },
+    {
+      "slug": "soft-journey-deezer",
+      "title": "Soft Journey sur Deezer",
+      "app_url": "deezer://album/747237701",
+      "web_url": "https://www.deezer.com/fr/album/747237701"
+    },
+    {
+      "slug": "soft-journey-youtube",
+      "title": "Soft Journey sur YouTube",
+      "app_url": "vnd.youtube://watch?v=vq8H_CXLSxI",
+      "web_url": "https://www.youtube.com/watch?v=vq8H_CXLSxI"
     }
   ]
 }
