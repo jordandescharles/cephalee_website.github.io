@@ -389,3 +389,42 @@ h2 {
 .single-links .stream-link i {
     font-size: 1.2em;
 }
+
+.seo {
+    max-width: 800px;
+    margin: 4rem auto 2rem;
+    padding: 0 1rem;
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+.seo-content {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 1.5rem;
+    border-radius: 4px;
+}
+
+.seo h1 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #999;
+    text-align: left;
+}
+
+.seo p {
+    margin-bottom: 1rem;
+    color: #777;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .seo {
+        font-size: 0.8rem;
+        margin: 3rem auto 1.5rem;
+    }
+    
+    .seo h1 {
+        font-size: 1.1rem;
+    }
+}
