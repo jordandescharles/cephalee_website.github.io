@@ -226,6 +226,12 @@ h2 {
     transform: translateY(-3px);
 }
 
+.stream-link.tidal {
+    background-color: #000000;
+    border-color: #000000;
+}   
+
+
 .button {
     background-color: #ff0066;
     color: white;
