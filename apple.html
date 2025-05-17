@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+  <html lang="fr">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Céphalée sur Apple Music</title>
+  </head>
+  <body>
+      <script>
+          // Essayer d'ouvrir l'app
+          window.location.href = 'music://artist/c%C3%A9phal%C3%A9e/1725025804';
+  
+          // Rediriger vers le site web après un délai
+          setTimeout(function () {
+              window.location.href = 'https://music.apple.com/fr/artist/c%C3%A9phal%C3%A9e/1725025804';
+          }, 1500);
+      </script>
+  </body>
+  </html>
