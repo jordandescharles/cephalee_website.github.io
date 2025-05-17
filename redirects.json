@@ -47,6 +47,36 @@
       "title": "Soft Journey sur YouTube",
       "app_url": "vnd.youtube://watch?v=vq8H_CXLSxI",
       "web_url": "https://www.youtube.com/watch?v=vq8H_CXLSxI"
+    },
+    {
+      "slug": "warehouse-spotify",
+      "title": "Warehouse sur Spotify",
+      "app_url": "spotify://album/4xWzniiFHmSqUM2m8Ni49c",
+      "web_url": "https://open.spotify.com/intl-fr/album/4xWzniiFHmSqUM2m8Ni49c"
+    },
+    {
+      "slug": "warehouse-apple",
+      "title": "Warehouse sur Apple Music",
+      "app_url": "music://song/warehouse/1810452894",
+      "web_url": "https://music.apple.com/fr/song/warehouse/1810452894"
+    },
+    {
+      "slug": "warehouse-deezer",
+      "title": "Warehouse sur Deezer",
+      "app_url": "deezer://album/747237701",
+      "web_url": "https://www.deezer.com/fr/album/747237701"
+    },
+    {
+      "slug": "warehouse-youtube",
+      "title": "Warehouse sur YouTube",
+      "app_url": "vnd.youtube://watch?v=vq8H_CXLSxI",
+      "web_url": "https://www.youtube.com/watch?v=vq8H_CXLSxI"
+    },
+    {
+      "slug": "warehouse-bandcamp",
+      "title": "Warehouse sur Bandcamp",
+      "app_url": "https://cephalee.bandcamp.com/track/warehouse",
+      "web_url": "https://cephalee.bandcamp.com/track/warehouse"
     }
   ]
 }
