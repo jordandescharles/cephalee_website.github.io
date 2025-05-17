@@ -63,14 +63,14 @@
     {
       "slug": "warehouse-deezer",
       "title": "Warehouse sur Deezer",
-      "app_url": "deezer://album/747237701",
-      "web_url": "https://www.deezer.com/fr/album/747237701"
+      "app_url": "deezer://album/747193881",
+      "web_url": "https://www.deezer.com/us/album/747193881"
     },
     {
       "slug": "warehouse-youtube",
       "title": "Warehouse sur YouTube",
-      "app_url": "vnd.youtube://watch?v=vq8H_CXLSxI",
-      "web_url": "https://www.youtube.com/watch?v=vq8H_CXLSxI"
+      "app_url": "vnd.youtube://watch?v=dBQrWf93Prk",
+      "web_url": "https://www.youtube.com/watch?v=dBQrWf93Prk"
     },
     {
       "slug": "warehouse-bandcamp",
