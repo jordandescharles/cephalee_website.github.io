@@ -23,60 +23,6 @@
       "title": "Céphalée sur Youtube",
       "app_url": "vnd.youtube://watch?v=C9h99JIL648",
       "web_url": "https://www.youtube.com/watch?v=C9h99JIL648"
-    },
-    {
-      "slug": "soft-journey-spotify",
-      "title": "Soft Journey sur Spotify",
-      "app_url": "spotify://track/2B4r5GNeqoRFxhBri6UEQE?si=693996f1c91c4d8d",
-      "web_url": "https://open.spotify.com/track/2B4r5GNeqoRFxhBri6UEQE?si=693996f1c91c4d8d"
-    },
-    {
-      "slug": "soft-journey-apple",
-      "title": "Soft Journey sur Apple Music",
-      "app_url": "music://song/soft-journey/1810482495",
-      "web_url": "https://music.apple.com/fr/song/soft-journey/1810482495"
-    },
-    {
-      "slug": "soft-journey-deezer",
-      "title": "Soft Journey sur Deezer",
-      "app_url": "deezer://album/747237701",
-      "web_url": "https://www.deezer.com/fr/album/747237701"
-    },
-    {
-      "slug": "soft-journey-youtube",
-      "title": "Soft Journey sur YouTube",
-      "app_url": "vnd.youtube://watch?v=vq8H_CXLSxI",
-      "web_url": "https://www.youtube.com/watch?v=vq8H_CXLSxI"
-    },
-    {
-      "slug": "warehouse-spotify",
-      "title": "Warehouse sur Spotify",
-      "app_url": "spotify://album/4xWzniiFHmSqUM2m8Ni49c",
-      "web_url": "https://open.spotify.com/intl-fr/album/4xWzniiFHmSqUM2m8Ni49c"
-    },
-    {
-      "slug": "warehouse-apple",
-      "title": "Warehouse sur Apple Music",
-      "app_url": "music://song/warehouse/1810452894",
-      "web_url": "https://music.apple.com/fr/song/warehouse/1810452894"
-    },
-    {
-      "slug": "warehouse-deezer",
-      "title": "Warehouse sur Deezer",
-      "app_url": "deezer://album/747193881",
-      "web_url": "https://www.deezer.com/us/album/747193881"
-    },
-    {
-      "slug": "warehouse-youtube",
-      "title": "Warehouse sur YouTube",
-      "app_url": "vnd.youtube://watch?v=dBQrWf93Prk",
-      "web_url": "https://www.youtube.com/watch?v=dBQrWf93Prk"
-    },
-    {
-      "slug": "warehouse-bandcamp",
-      "title": "Warehouse sur Bandcamp",
-      "app_url": "https://cephalee.bandcamp.com/track/warehouse",
-      "web_url": "https://cephalee.bandcamp.com/track/warehouse"
     }
   ]
 }
