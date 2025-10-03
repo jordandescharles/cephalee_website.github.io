@@ -101,6 +101,17 @@ h2 {
     font-weight: bold;
 }
 
+.past-dates .venue {
+    font-weight: bold;
+    text-align: left;
+}
+
+.past-dates .date-item {
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+
 .bio {
     margin: 30px auto;
     max-width: 500px;
