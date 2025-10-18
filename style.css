@@ -311,6 +311,10 @@ h2 {
     font-size: 12px;
 }
 
+.date-item  {
+    font-size: 12px;
+}
+
 .past-dates .venue {
     font-weight: bold;
     text-align: left;
