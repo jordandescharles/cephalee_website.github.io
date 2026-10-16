@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Céphalée - Post-Hardcore Lille </title>
-    
+    <title>Céphalée - Post-Hardcore Lille</title>
+
     <!-- Favicons -->
     <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
     <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
@@ -14,225 +14,70 @@
     <link rel="icon" type="image/png" sizes="192x192" href="/img/android-chrome-192x192.png">
     <link rel="icon" type="image/png" sizes="512x512" href="/img/android-chrome-512x512.png">
     <link rel="manifest" href="/site.webmanifest">
-    
+
     <!-- Meta tags SEO -->
-    <meta name="description" content="Céphalée, groupe de post-hardcore de Lille. Fusion unique de post-hardcore, rock progressif et grunge. Découvrez leurs concerts et leurs singles comme 'Soft Journey' et 'Fine'.">
-    <meta name="keywords" content="Céphalée, post-hardcore Lille, post-hardcore, groupe Lille, concert, Soft Journey, Fine">
+    <meta name="description" content="Céphalée, groupe de post-hardcore de Lille. Fusion unique de post-hardcore, rock progressif et grunge.">
+    <meta name="keywords" content="Céphalée, post-hardcore Lille, post-hardcore, groupe Lille, concert">
     <meta name="author" content="Céphalée">
     <link rel="canonical" href="https://cephalee-band.fr" />
-    
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://cephalee-band.fr">
     <meta property="og:title" content="Céphalée - Post-Hardcore de Lille">
-    <meta property="og:description" content="Groupe de post-hardcore de Lille. Fusion unique de post-hardcore, rock progressif et grunge. Découvrez leurs concerts et leurs singles.">
-    <meta property="og:image" content="https://cephalee-band.fr/img/logo.png">
-    
-    <!-- Fontawesome pour les icônes -->
+    <meta property="og:description" content="Ranting and raving about nonsense. Groupe de post-hardcore de Lille.">
+    <meta property="og:image" content="https://cephalee-band.fr/img/band.jpg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <header>
-        <img class="profile-image" src="./img/logo.png" alt="Logo Céphalée - Groupe de musique post-punk, rock et post-hardcore">
-        <h2>Ranting and raving about nonsense</h2>
-    </header>
+    <main class="landing">
+        <section class="hero" aria-label="Céphalée">
+            <img
+                class="hero-photo"
+                src="./img/band.jpg"
+                alt="Céphalée, groupe de post-hardcore de Lille"
+                width="1600"
+                height="1067"
+            >
 
-    <main>
-        
-        <!--<section class="latest-release-block">
-            <div class="upcoming-dates">
-            <h2>PROCHAINES DATES</h2>
-               
-        </section>-->
+            <div class="hero-veil" aria-hidden="true"></div>
 
-        <section class="latest-release">
-            <h2>DEJA DISPONIBLE</h2>
-            <div class="release-info">
-                <img class="release-cover" src="./img/pchette.jpg" alt="Pochette de l'EP RUN - Céphalée">
-                <div class="release-title">RUN</div>
-                <div class="release-date">⬇ Sur tous les plateformes ⬇</div>
+            <div class="hero-content">
+                <img
+                    class="logo"
+                    src="./img/logo.png"
+                    alt="Céphalée"
+                    width="800"
+                    height="200"
+                >
+                <p class="baseline">Ranting and raving about nonsense</p>
 
+                <nav class="socials" aria-label="Réseaux sociaux">
+                    <a href="https://instagram.com/cephalee.band" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://facebook.com/cephalee.band" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                        <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@cephalee" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                        <i class="fab fa-youtube" aria-hidden="true"></i>
+                    </a>
+                    <a href="/redirect.html?to=spotify" aria-label="Spotify">
+                        <i class="fab fa-spotify" aria-hidden="true"></i>
+                    </a>
+                    <a href="/redirect.html?to=apple" aria-label="Apple Music">
+                        <i class="fab fa-apple" aria-hidden="true"></i>
+                    </a>
+                    <a href="/redirect.html?to=deezer" aria-label="Deezer">
+                        <i class="fab fa-deezer" aria-hidden="true"></i>
+                    </a>
+                </nav>
             </div>
         </section>
-        
-        <section class="music-links">
-            <h2>Écouter notre musique</h2>
-            <div class="links">
-                
-                <!-- Liens streaming avec détection mobile -->
-                <a href="https://www.youtube.com/@cephalee" 
-                data-mobile-link="youtube://www.youtube.com/@cephalee" 
-                class="link-item stream-link youtube">
-                <i class="fab fa-youtube"></i> Youtube
-             </a>
-                
-                <a href="https://music.apple.com/fr/artist/c%C3%A9phal%C3%A9e/1725025804" 
-                   data-mobile-link="music://artist/c%C3%A9phal%C3%A9e/1725025804" 
-                   class="link-item stream-link apple">
-                   <i class="fab fa-apple"></i> Apple Music
-                </a>
-                
-                <a href="https://www.deezer.com/fr/artist/249919752" 
-                   data-mobile-link="deezer://www.deezer.com/fr/artist/249919752" 
-                   class="link-item stream-link deezer">
-                   <i class="fab fa-deezer"></i> Deezer
-                </a>
-                
-                <a href="https://cephalee.bandcamp.com/" 
-                   class="link-item stream-link bandcamp">
-                   <i class="fab fa-bandcamp"></i> BANDCAMP
-                </a>
-
-                <a href="https://tidal.com/browse/artist/44964655" 
-                   data-mobile-link="tidal://artist/44964655" 
-                   class="link-item tidal">
-                   <i class="fab fa-tidal"></i> TIDAL
-                </a>
-
-            </div>
-        </section>
-
-        <section class="bio">
-            <h2>À propos de Céphalée</h2>
-            <p>
-                Céphalée est un Quatuor basé à Lille dans le Nord de la France. 
-                Les quatres membres évoluent dans les milieux musicaux alternatifs locaux. 
-                Leur musique est un mélange unique de post-punk, de rock progressif et de post-hardcore, 
-                créant une identité sonore à la fois énergique et sophistiquée.
-            </p>
-        </section>
-        
-        <section class="social-links">
-            <h2>Nous suivre</h2>
-            <div class="social-icons">
-                <a href="https://instagram.com/cephalee.band" target="_blank" aria-label="Instagram Céphalée"><i class="fab fa-instagram"></i></a>
-                <a href="https://facebook.com/cephalee.band" target="_blank" aria-label="Facebook Céphalée"><i class="fab fa-facebook"></i></a>
-                <a href="https://sur-les-cendres.fr" target="_blank" aria-label="Site web Sur les Cendres"><i class="fas fa-link"></i></a>
-            </div>
-        </section>
-
-        <section class="dates past-dates">
-            <h2>Dates passées</h2>
-            <div class="date-list">
-
-                <div class="date-item">
-                    <span class="date">30/11/2025</span>
-                    <span class="venue">HIGH VOLTAGE - Lille</span>
-                    <span>avec Tethered (UK)</span>
-                </div>
-
-                <div class="date-item   ">
-                    <span class="date">28/10/2025</span>
-                    <span class="venue">Le Couvent Roubaix</span>
-                    <span>avec MISERE & Knives Chau ( écosse )</span>
-                </div>
-
-                <div class="date-item">
-                    <span class="date">03/10/2025</span>
-                    <span class="venue">Le High Voltage- Lille</span>
-                    <span class="with">avec Iron Sliver & Abstract Puppet</span>
-                </div>
-                <div class="date-item">
-                    <span class="date">09/2025</span>
-                    <span class="venue">La griffe - Lille</span>
-                    <span class="with">avec Stay in Nothing & Gaze</span>
-                </div>
-                <div class="date-item">
-                    <span class="date">06/2025</span>
-                    <span class="venue">Fête de la musique - Douai</span>
-                </div>
-                <div class="date-item">
-                    <span class="date">05/2025</span>
-                    <span class="venue">La malterie - Lille</span>
-                    <span class="with">avec Goomh & Gravier</span>
-                </div>
-                <div class="date-item">
-                    <span class="date">04/2025</span>
-                    <span class="venue">Hemo Rock Fest, la bratcave - Lille</span>
-                    <span class="with">avec Scarletter, Dagon & alles Lugen</span>
-                </div>
-                <div class="date-item">
-                    <span class="date">12/2024</span>
-                    <span class="venue">La griffe - Lille</span>
-                    <span class="with">avec Kill the Hollow</span>
-                </div>
-                <div class="date-item">
-                    <span class="date">10/2024</span>
-                    <span class="venue">Amul Solo - Lille</span>
-                    <span class="with">avec Meat Ozyl</span>
-                </div>
-                <div class="date-item">
-                    <span class="date">10/2024</span>
-                    <span class="venue">BAM Wattrelos</span>
-                    <span class="with">avec Hetake & Thank you partner</span>
-                </div>
-                <div class="date-item">
-                    <span class="date">09/2024</span>
-                    <span class="venue">Le Distrot - Lille</span>
-                    <span class="with">avec Stay in Nothing </span>
-                </div>
-                <div class="date-item">
-                    <span class="date">08/2024</span>
-                    <span class="venue">Le Montparnasse Distrot - Lille</span>
-                    <span class="with">avec Tinysaurus </span>
-                </div>
-                <div class="date-item">
-                    <span class="date">06/2024</span>
-                    <span class="venue">La Old Dirty Biniou- Lille</span>
-                    <span class="with">avec Overflow Guys </span>
-                </div>
-                <div class="date-item">
-                    <span class="date">04/2024</span>
-                    <span class="venue">Le Bidule - Lille</span>
-                    <span class="with">avec Meat Ozyl </span>
-                </div>
-                <div class="date-item">
-                    <span class="date">02/2024</span>
-                    <span class="venue">La bratcave - Lille</span>
-                    <span class="with">avec For the witch & Transport aerian </span>
-                </div>
-                <div class="date-item">
-                    <span class="date">01/2024</span>
-                    <span class="venue">Le Distrot - Lille</span>
-                </div>
-            </div>
-        </section>
-
-
     </main>
-
-    <footer>
-        <p>&copy; <script>document.write(new Date().getFullYear())</script> Céphalée - Tous droits réservés</p>
-    </footer>
-
-    <script>
-        // Script pour rediriger vers les applications mobiles si l'utilisateur est sur mobile
-        document.addEventListener('DOMContentLoaded', function() {
-            // Détection de l'appareil mobile
-            const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-            
-            // Configurer les liens de streaming pour rediriger vers les applications sur mobile
-            if (isMobile) {
-                const streamLinks = document.querySelectorAll('.stream-link');
-                streamLinks.forEach(link => {
-                    link.addEventListener('click', function(e) {
-                        e.preventDefault();
-                        
-                        const mobileLink = this.getAttribute('data-mobile-link');
-                        const webLink = this.getAttribute('href');
-                        
-                        // Tentative d'ouverture de l'application
-                        window.location.href = mobileLink;
-                        
-                        // Fallback vers le lien web après un court délai
-                        // (au cas où l'application n'est pas installée)
-                        setTimeout(function() {
-                            window.location.href = webLink;
-                        }, 1000);
-                    });
-                });
-            }
-        });
-    </script>
 </body>
-</html> 
+</html>
